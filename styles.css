@@ -1,0 +1,207 @@
+/* Global Variables */
+:root {
+  /* font size */
+  --fs-body-large: 14px;
+  --fs-body-medium: 12px;
+  --fs-body-small: 10px;
+
+  /*   Font Weight */
+  --fw-bold: 600;
+
+  /*   Colors */
+  /*   Primary */
+  --darkblue05: #091b6f;
+  --darkblue04: #0d28a6;
+  --darkblue03: #5e70c4;
+  --darkblue02: #aeb7e1;
+  --darkblue01: #cfd4ed;
+  --limegreen05: #3d7b3f;
+  --limegreen04: #5cb85f;
+  --limegreen03: #92d094;
+  --limegreen02: #c9e7ca;
+  --limegreen01: #def1df;
+
+  /*   Allert */
+  --alrt-red: #fa2c5a;
+  --alrt-yellow: #f9cc00;
+  --alrt-green: #73ca5c;
+
+  /*   Neutral */
+  --neutral05: #151515;
+  --neutral04: #3c3c3c;
+  --neutral03: #8a8a8a;
+  --neutral02: #d0d0d0;
+  --neutral01: #ffffff;
+}
+
+
+/* Global Styles */
+html,
+body {
+  font-family: "Helvetica" !important;
+}
+p {
+  font-size: var(--fs-body-large) !important;
+}
+a {
+  text-decoration: none !important;
+}
+section {
+  padding-top: 30px;
+  position: relative;
+}
+header {
+  background-color: var(--limegreen01);
+}
+
+
+/* Button Green */
+.btn-green {
+  background-color: var(--limegreen04) !important;
+  padding: 10px 15px !important;
+  color: var(--neutral01) !important;
+  font-weight: var(--fw-bold);
+}
+.btn-green:hover:focus:active {
+  background-color: var(--limegreen05) !important;
+}
+
+/* Navigation Bar Style  */
+.navbar-brand {
+  background-color: var(--darkblue04);
+  color: var(--darkblue04) !important;
+}
+.nav-item {
+  padding: 10px;
+  font-size: var(--fs-body-large) !important;
+}
+
+
+/* Hero Section Styles */
+.hero-section {
+  background-color: var(--limegreen01);
+}
+
+
+/* Our Services Section Styles */
+.bi-check {
+  margin-right: 20px;
+  font-size: 24px;
+  color: var(--darkblue05);
+}
+ol {
+  margin-left: -30px;
+}
+ol li {
+  display: flex;
+  padding-bottom: 15px;
+}
+ol li i {
+  background-color: var(--darkblue01);
+  border-radius: 50%;
+  display: inline-flex;
+}
+
+
+/* Why Us Section Styles */
+.bi-hand-thumbs-up,
+.bi-tag,
+.bi-clock,
+.bi-award {
+  border-radius: 50%;
+  display: inline-flex;
+  font-size: 24px;
+  padding: 7px;
+  color: var(--neutral01);
+  margin-bottom: 20px;
+}
+.bi-hand-thumbs-up {
+  background-color: var(--alrt-yellow);
+}
+.bi-tag {
+  background-color: var(--alrt-red);
+}
+.bi-clock {
+  background-color: var(--darkblue04);
+}
+.bi-award {
+  background-color: var(--limegreen04);
+}
+
+
+/* Testimonial Section Styles */
+.slide {
+  background-color: var(--limegreen01);
+  padding: 50px;
+  width: 619px;
+  height: 270px; /* Set maximum height */
+  overflow: auto; /* Enable content overflow */
+}
+.testimonial-section {
+  height: auto;
+}
+.bi-star-fill {
+  color: var(--alrt-yellow);
+}
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.btn-arrow {
+  background-color: var(--neutral01); 
+  border: none; 
+  border-radius: 50%; 
+  font-size: 24px; 
+  display: inline-flex;
+  padding: 7px;
+  color: var(--neutral05); 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; /
+}
+.btn-arrow:hover {
+  background-color: var(--limegreen03);
+  color: var(--neutral01);
+}
+.btn-arrow:active {
+  background-color: var(--limegreen04);
+}
+.bi-chevron-left,
+.bi-chevron-right {
+  display: inline-flex;
+}
+
+
+/* FAQ Section Styles */
+.accordion-item:hover {
+  background-color: var(--limegreen01);
+}
+.accordion-item:active {
+  background-color: var(--limegreen02);
+}
+.accordion-button span {
+  flex-grow: 1;
+}
+.bi-chevron-down {
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+.accordion-button[aria-expanded="true"] .bi-chevron-down {
+  transform: rotate(180deg);
+}
+
+
+/* Footer Styles */
+.bi-facebook,
+.bi-instagram,
+.bi-twitter,
+.bi-envelope,
+.bi-twitch {
+  border-radius: 50%;
+  display: inline-flex;
+  font-size: 24px;
+  padding: 7px;
+  color: var(--neutral01);
+  margin-right: 10px;
+  background: var(--darkblue04);
+}
