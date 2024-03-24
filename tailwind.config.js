@@ -39,9 +39,10 @@ module.exports = {
           },
         },
         fontFamily: {
-          'sans': ['Helvetica', 'Arial', 'sans-serif'],
+          'sans': ['Helvetica'],
         },
         spacing: {
+          '80': '80px',
           '100': '100px'
         }
       },

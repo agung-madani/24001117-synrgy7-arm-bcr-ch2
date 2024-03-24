@@ -13,4 +13,7 @@
     .bi-check {
         @apply bg-darkblue-01 rounded-full m-auto text-2xl text-darkblue-05 inline-flex mb-3
     }
+    .bi-hand-thumbs-up, .bi-tag, .bi-clock, .bi-award {
+        @apply rounded-full m-auto text-base inline-flex text-white p-2
+    }
 }
