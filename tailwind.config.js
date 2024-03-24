@@ -42,7 +42,7 @@ module.exports = {
           'sans': ['Helvetica', 'Arial', 'sans-serif'],
         },
         spacing: {
-          '80': '80px'
+          '100': '100px'
         }
       },
     },

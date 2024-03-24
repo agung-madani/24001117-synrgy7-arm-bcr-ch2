@@ -5,10 +5,12 @@
 @layer components {
     /* Button Green */
     .btn-green {
-        border-radius: 2px;
-        @apply bg-limegreen-04 text-white px-4 py-2 font-bold 
+        @apply bg-limegreen-04 text-white px-4 py-2 font-bold rounded-sm
     }
     .btn-green:hover:focus:active {
         @apply bg-limegreen-05
+    }
+    .bi-check {
+        @apply bg-darkblue-01 rounded-full m-auto text-2xl text-darkblue-05 inline-flex mb-3
     }
 }
