@@ -16,4 +16,18 @@
     .bi-hand-thumbs-up, .bi-tag, .bi-clock, .bi-award {
         @apply rounded-full m-auto text-base inline-flex text-white p-2
     }
+    .slide {
+        @apply bg-[#F1F3FF] p-6 lg:p-12 overflow-auto h-[372px] lg:w-[619px] lg:h-[270px] m-auto
+    }
+    .profile-picture {
+        @apply rounded-full w-[80px] h-[80px] mb-6 lg:mb-0
+    }
+    .bi-star-fill {
+        @apply text-alrt-yellow
+    }
+    .bi-chevron-right, .bi-chevron-left {
+        transition: background-color 0.3s ease; 
+        @apply rounded-full m-2 text-base border p-2 cursor-pointer hover:bg-limegreen-03 hover:text-white active:bg-limegreen-04
+    }
+    
 }

@@ -1,7 +1,6 @@
 var slider = tns({
   container: ".my-slider",
-  items: 2,
-  gutter: 30,
+  items: 3,
   slideBy: 1,
   center: true,
   mouseDrag: true,
@@ -9,4 +8,12 @@ var slider = tns({
   nav: false,
   autoplayButtonOutput: false,
   controlsContainer: "#custom-control",
+  responsive: {
+    1280: {
+      items: 2
+    },
+    100: {
+      items: 1
+    }
+  }
 });
