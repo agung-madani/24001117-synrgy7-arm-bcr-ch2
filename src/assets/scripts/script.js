@@ -9,8 +9,8 @@ var slider = tns({
   autoplayButtonOutput: false,
   controlsContainer: "#custom-control",
   responsive: {
-    1280: {
-      items: 2
+    1024: {
+      items: 2,
     },
     100: {
       items: 1
